@@ -1,2 +1,3 @@
 #!/bin/bash
-/bin/pwd
+dir_path=$(dirname $full_path)
+echo $dir_path
